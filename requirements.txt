@@ -1,0 +1,6 @@
+selenium==3.8.1
+Pillow==5.0.0
+requests==2.18.4
+baidu-aip
+lxml
+bs4

@@ -48,9 +48,9 @@ os.system("adb shell /system/bin/screencap -p /sdcard/screenshot.png")
 os.system("adb pull /sdcard/screenshot.png ./screenshot.png")
 
 """ （百度ocr）你的 APPID AK SK """
-APP_ID = '10675708'
-API_KEY = '1f5OpU2MTf1IYqtNeLfYQHpy'
-SECRET_KEY = 'bppIbvEzi4OjykBuIoWKKIWuDjGDU4DE'
+APP_ID = '你的key'
+API_KEY = '你的key'
+SECRET_KEY = '你的 secret_key'
 client = AipOcr(APP_ID, API_KEY, SECRET_KEY)
 
 im = Image.open(r"./screenshot.png")
